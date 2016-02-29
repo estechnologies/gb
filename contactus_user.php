@@ -1,0 +1,243 @@
+<?php
+    
+
+if ((function_exists('session_status')
+		&& session_status() !== PHP_SESSION_ACTIVE) || !session_id()) {
+			session_start();
+		}
+    
+    // Check, if username session is NOT set then this page will jump to login page
+    if (!isset($_SESSION['id']['username'])) {
+        header('Location:index.php');
+    }
+
+    $personName = $_SESSION['id']['username'];
+    $personMail  =$_SESSION['id']['email']; 
+    
+  
+?><?php
+	require 'connect.php';
+	
+	
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Contact GoodsCAB</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/images/goodscab.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Custom CSS -->
+   <link href="css/style.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+       <link href="css/main.css" rel="stylesheet">
+	<style>
+	body {padding-top:20px;}
+input[type="submit"] {
+color:white;
+ background-color:black;
+}
+input[type="submit"]:hover {
+    color:white;
+    background-color:#333131;
+
+}
+label{font-size:14px;}
+	</style>
+	<script>
+	function InvalidMsg(textbox) {
+    
+    if (textbox.value == '') {
+        textbox.setCustomValidity('Please fill in this field');
+    }
+    else if(textbox.validity.patternMismatch){
+        textbox.setCustomValidity('Please enter valid 10-digit mobile number.');
+    }
+    else {
+        textbox.setCustomValidity('');
+    }
+    return true;
+}function InvalidMsgEmail(textbox) {
+    
+    if (textbox.value == '') {
+        textbox.setCustomValidity('Please fill in this field');
+    }
+    else if(textbox.validity.patternMismatch){
+        textbox.setCustomValidity('Please enter a valid email address');
+    }
+    else {
+        textbox.setCustomValidity('');
+    }
+    return true;
+}
+function InvalidMsgfill(textbox) {
+    
+    if (textbox.value == '') {
+        textbox.setCustomValidity('Please fill in this field');
+    }
+    else if(textbox.validity.typeMismatch){
+        textbox.setCustomValidity('');
+    }
+    else {
+        textbox.setCustomValidity('');
+    }
+    return true;
+}
+
+	</script>
+</head>
+<body style="font-size: 18px;">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	  <img  id="logo"  src="images/goodscab_logo.png">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      </ul>
+		 <ul class="nav navbar-nav navbar-right">
+    <li class="headermain" style=""><a href="main.php" style=" padding-top: 8px;" class="navbar-btn btn-default btn pull-right"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+     <li style="margin-top:20px;margin-right:20px;" class="dropdown headerlinks">
+ <button class="btn btn-default dropdown-toggle"  type="button" data-toggle="dropdown">My Account
+    <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <li class="headerlinks_drop"><a href="resetpassword.php">Reset Password</a></li>
+        <li class="headerlinks_drop"><a href="userLogout.php">Logout</a></li>                        
+      </ul>
+    </li>
+  </ul>
+    </div>
+  </div>
+</nav>
+	<div class="main" style="background-color:white;margin-top:100px;">
+	<div class="container" >
+	<div class="col-md-3">
+	</div>
+	 <div class="col-md-6 ">
+       <div class="panel panel-default">
+  <center>  <div style="background-color: #EAE9E9;" class="panel-heading"><h3 class="panel-title"><strong>Contact Us</strong></h3>
+      
+  </div> </center> 
+  
+  <div class="panel-body">
+   <form id="contact-form" action="contactus.php" method="post" >
+   		           <?php 
+	
+		           if(isset($_POST['submit'])){
+		           
+		           
+		           
+		           	$database = new connect();
+		           	$name = htmlspecialchars($_POST['name']);
+		           	$email = htmlspecialchars($_POST['email']);
+		           	$number = htmlspecialchars($_POST['number']);
+		           	$comments = htmlspecialchars($_POST['comments']);
+		           
+		           	// checking all fields
+		           	if(!empty($name) && !empty($email) && !empty($number) && !empty($comments)){
+		           			
+		           			
+		           		// database  querying
+		           		$query = "INSERT INTO messages(time,name,email,number,message)VALUES(NOW(),'$name','$email','$number','$comments')";
+		           
+		           		$result = $database->insertDatabase($query);
+		           		if($result == true){
+		           			
+		           			
+		           			?><div class="alert alert-success">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+ <center> <label style="color:Green"><?php echo "Your message has been submitted.We will contact you shortly."?></label></center>
+  </div>
+		           					
+		           					 <?php
+		           		}else{
+		           			?>
+		           			<div class="alert alert-danger">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+  <center> <label style="color:red"><?php echo "sorry,message not reached please contact."?></label></center> 
+  </div>
+		           			
+		           			
+		           		<?php
+		           		}
+		           	}else{
+		           		?>
+		           			           			<div class="alert alert-danger">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+ <center> <label style="color:red"><?php echo "Please enter all the fields to submit the message."?></label></center> 
+  </div>
+		           		
+		           		
+		           	<?php
+		           	}
+		           }
+	
+
+
+?>
+ <center></center>
+		 <center></center>
+	 <label for="Name">Name*</label>
+  <div style="margin-bottom: 12px" class="input-group">
+		<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+		 <input id="name" name="name" required="required" maxlength="50" type="text" placeholder="Enter your name" oninvalid="InvalidMsgfill(this);"  oninput="InvalidMsgfill(this);" class="form-control">
+	</div>
+	<label for="eEmail Address">Email Address*</label>
+  <div style="margin-bottom: 12px" class="input-group">
+		<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+		<input id="email" name="email" type="email" placeholder="Enter your email address" maxlength="50"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" oninvalid="InvalidMsgEmail(this);"  value="<?php echo $_SESSION['id']['email'];?>"  required="required"  oninput="InvalidMsgEmail(this);" class="form-control">                                     
+  </div>
+	<label for="Mobilenumber">Mobile Number*</label>
+  <div style="margin-bottom: 12px" class="input-group">
+		<span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+              <input id="mobile" name="number" type="text"  pattern="[0-9]{10}"  oninvalid="InvalidMsg(this);" maxlength="10" oninput="InvalidMsg(this);" required="required" placeholder="Enter your mobile number " value="<?php echo $_SESSION['id']['mobile'];?>" class="form-control">
+              </div>                                      
+  
+ <label for="Message">Message*</label>
+  <div style="margin-bottom: 12px" class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+     <textarea class="form-control" id="message" required="required"  name="comments"  maxlength="200" oninvalid="InvalidMsgfill(this);"  oninput="InvalidMsgfill(this);" rows="5" placeholder="Enter your message here" ></textarea>
+
+  </div>
+ 
+   
+ <center><button style="margin-bottom: 12px" type="submit" name="submit" class="btn btn-default">Submit </button></center>
+ </div>
+</form>
+  </div>
+</div>
+       
+	</div>
+	</div>
+	
+	
+	
+	
+<div style="margin-bottom:100px">
+  </div>
+
+	<!-- Footer -->
+      <div  class="navbar navbar-default navbar-fixed-bottom">
+      <p class="footer navbar-text pull-left">
+          	<a href="aboutus_user.php" >About us</a>&nbsp;&nbsp; |&nbsp;
+			<a href="contactus_user.php" >Contact</a>&nbsp;&nbsp;|&nbsp;
+			<a href="Terms_Privacy_user.php" >Terms & Privacy</a>
+
+      </p>
+      
+    <p  class="footer navbar-text pull-right">All Rights Reserved - 2016. <a target="t-blank" href="http://www.yodhaa.com">Yodhaa Business Solutions Pvt Ltd. </a></p>
+    </div>
+    </body>
+</html>

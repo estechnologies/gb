@@ -1,0 +1,38 @@
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color:black;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: black;
+	 background-color: #F1C40F;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+
+    color: black;
+    background-color: #F1C40F;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #F1C40F;
+    border-color:black;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color:black;
+    background-color: #F1C40F;
+    border-color: #F1C40F;
+}
+.btn{    width: 161px;}
+.dropdown-menu>li>a:hover {    background-color: #F1C40F;
+    border-color:black;}
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color:black;
+    background-color: #F1C40F;
+}
+.headermain{margin-right:20px;margin-top:12px;}
+.headermain a{  height: 35px;
+    font-size:15px;
+       padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 2px;}
+       

@@ -1,0 +1,40 @@
+[30-Jan-2016 09:50:04 UTC] PHP Warning:  include(database/connect.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/loginproc.php on line 7
+[30-Jan-2016 09:50:04 UTC] PHP Warning:  include(database/connect.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/loginproc.php on line 7
+[30-Jan-2016 09:50:04 UTC] PHP Warning:  include(): Failed opening 'database/connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/goodscab/public_html/login/loginproc.php on line 7
+[30-Jan-2016 09:50:04 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/login/loginproc.php on line 10
+[30-Jan-2016 09:50:04 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/goodscab/public_html/login/loginproc.php on line 10
+[30-Jan-2016 09:50:04 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/login/loginproc.php on line 10
+[30-Jan-2016 09:50:04 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/goodscab/public_html/login/loginproc.php on line 10
+[30-Jan-2016 09:50:04 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/login/loginproc.php on line 10
+[30-Jan-2016 09:50:04 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/login/loginproc.php on line 10
+[30-Jan-2016 09:50:04 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/login/loginproc.php on line 13
+[30-Jan-2016 09:50:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/goodscab/public_html/login/loginproc.php:7) in /home/goodscab/public_html/login/loginproc.php on line 28
+[27-Feb-2016 05:22:42 UTC] PHP Warning:  require(packagingConnection.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/MTOBookingsView.php on line 103
+[27-Feb-2016 05:22:42 UTC] PHP Warning:  require(packagingConnection.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/MTOBookingsView.php on line 103
+[27-Feb-2016 05:22:42 UTC] PHP Fatal error:  require(): Failed opening required 'packagingConnection.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/goodscab/public_html/login/MTOBookingsView.php on line 103
+[27-Feb-2016 05:23:35 UTC] PHP Warning:  require(packagingConnection.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/MTOBookingsView.php on line 103
+[27-Feb-2016 05:23:35 UTC] PHP Warning:  require(packagingConnection.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/MTOBookingsView.php on line 103
+[27-Feb-2016 05:23:35 UTC] PHP Fatal error:  require(): Failed opening required 'packagingConnection.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/goodscab/public_html/login/MTOBookingsView.php on line 103
+[27-Feb-2016 05:29:07 UTC] PHP Warning:  require(packagingConnection.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/MTSBookingsView.php on line 104
+[27-Feb-2016 05:29:07 UTC] PHP Warning:  require(packagingConnection.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/MTSBookingsView.php on line 104
+[27-Feb-2016 05:29:07 UTC] PHP Fatal error:  require(): Failed opening required 'packagingConnection.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/goodscab/public_html/login/MTSBookingsView.php on line 104
+[27-Feb-2016 06:42:29 UTC] PHP Warning:  require(packagingConnection.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/MTOBookingsView.php on line 110
+[27-Feb-2016 06:42:29 UTC] PHP Warning:  require(packagingConnection.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/MTOBookingsView.php on line 110
+[27-Feb-2016 06:42:29 UTC] PHP Fatal error:  require(): Failed opening required 'packagingConnection.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/goodscab/public_html/login/MTOBookingsView.php on line 110
+[27-Feb-2016 07:00:57 UTC] PHP Warning:  require(packagingConnection.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/MTSBookingsView.php on line 111
+[27-Feb-2016 07:00:57 UTC] PHP Warning:  require(packagingConnection.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/MTSBookingsView.php on line 111
+[27-Feb-2016 07:00:57 UTC] PHP Fatal error:  require(): Failed opening required 'packagingConnection.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/goodscab/public_html/login/MTSBookingsView.php on line 111
+[29-Feb-2016 06:03:33 UTC] PHP Fatal error:  Cannot redeclare class connect in /home/goodscab/public_html/login/connect.php on line 3
+[29-Feb-2016 06:44:42 UTC] PHP Warning:  require(packagingConnection.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/MTSBookingsView.php on line 113
+[29-Feb-2016 06:44:42 UTC] PHP Warning:  require(packagingConnection.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/MTSBookingsView.php on line 113
+[29-Feb-2016 06:44:42 UTC] PHP Fatal error:  require(): Failed opening required 'packagingConnection.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/goodscab/public_html/login/MTSBookingsView.php on line 113
+[29-Feb-2016 06:50:36 UTC] PHP Warning:  include(counts.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/main.php on line 204
+[29-Feb-2016 06:50:36 UTC] PHP Warning:  include(counts.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/main.php on line 204
+[29-Feb-2016 06:50:36 UTC] PHP Warning:  include(): Failed opening 'counts.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/goodscab/public_html/login/main.php on line 204
+[29-Feb-2016 06:50:36 UTC] PHP Fatal error:  Class 'counts' not found in /home/goodscab/public_html/login/main.php on line 205
+[29-Feb-2016 06:50:47 UTC] PHP Warning:  include(counts.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/main.php on line 204
+[29-Feb-2016 06:50:47 UTC] PHP Warning:  include(counts.php): failed to open stream: No such file or directory in /home/goodscab/public_html/login/main.php on line 204
+[29-Feb-2016 06:50:47 UTC] PHP Warning:  include(): Failed opening 'counts.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/goodscab/public_html/login/main.php on line 204
+[29-Feb-2016 06:50:47 UTC] PHP Fatal error:  Class 'counts' not found in /home/goodscab/public_html/login/main.php on line 205
+[29-Feb-2016 06:51:25 UTC] PHP Fatal error:  Cannot redeclare class connect in /home/goodscab/public_html/login/connect.php on line 3
+[29-Feb-2016 06:51:39 UTC] PHP Fatal error:  Cannot redeclare class connect in /home/goodscab/public_html/login/connect.php on line 3

@@ -1,0 +1,119 @@
+#logo {
+  background-image: url(images/goodscab_logo.png);
+  display: block;
+
+  text-indent: -9999px;
+}
+.navbar-default {
+    background-color: white;
+    border-color: white;
+}
+.btn {color:white;
+background-color:black;
+
+}
+.btn{    width: 100px;font-size:15px;}
+.dropdown-menu>li>a:hover {    background-color: #F1C40F;
+    border-color:black;}
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color:black;
+    background-color: #F1C40F;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.btn:hover{color:black;
+ background-color: #F1C40F;
+
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: black;
+	 background-color: #F1C40F;
+}
+.footer{ font-family: Cambria; 
+	font-size: 15px;}
+.footer a{color:gray;
+    font-family: Cambria; 
+	font-size: 15px;text-align:right;color:black;
+text-decoration: none;
+border-bottom: 2px solid white;}
+.footer a:hover{color:black;
+text-decoration: none;   font-family: Cambria;
+border-bottom: 2px solid #F1C40F;}
+
+.navbar-fixed-bottom{    background-color: white;
+border-color: #F1C40F;
+ border-top-width: thick;}  
+ .navbar-default .navbar-text {
+    color: black;
+}
+@media (max-width:315px) { #logo {
+    background-image: url(images/goodscab_logo.png);
+    display: block;
+    margin: 0 auto;
+    width: 163px;
+    /* margin-top: -73px; */
+}}
+.navbar-inverse {
+    background-color: #F1C40F;
+    border-color: #F1C40F;
+}
+.headerlinks a{color:black;
+font-size:18px;
+text-decoration: none;
+border-bottom: 2px solid #F1C40F;}
+.headerlinks a:hover{color:white;
+font-size:18px;
+text-decoration: none;
+border-bottom: 2px solid black;}
+.headerlinks_drops a{color:black;
+font-size:18px;
+text-decoration: none;
+border-bottom: 2px solid white;}
+.headerlinks_drops a:hover{color:black;
+font-size:18px;
+text-decoration: none;
+border-bottom: 2px solid black;}
+.headerlinks_drop a{color:black;
+font-size:15px;
+text-decoration: none;
+border-bottom: 2px solid white;}
+.headerlinks_drop a:hover{color:black;
+font-size:15px;
+text-decoration: none;
+border-bottom: 2px solid black;}
+
+
+.nav-pills>li>a:visited{
+    border-radius: 4px;
+    background-color:#F1C40F;
+}
+.nav-pills>li>a:link {
+ border-radius: 4px;
+    background-color:#F1C40F;
+    
+}
+.nav-pills>li>a::active{
+    border-radius: 4px;
+    background-color: black;
+}
+.nav-pills>li>a:hover{
+    border-radius: 4px;
+    background-color: black;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #F1C40F;
+    border-color: black;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+       background-color: #F1C40F;
+    border-color: black;
+}
+.navbar-nav>li>a {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #F1C40F;
+    background-color: #F1C40F;
+}

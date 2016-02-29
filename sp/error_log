@@ -1,0 +1,114 @@
+[30-Jan-2016 09:28:42 UTC] PHP Warning:  include(database/connect.php): failed to open stream: No such file or directory in /home/goodscab/public_html/sp/loginproc_home.php on line 7
+[30-Jan-2016 09:28:42 UTC] PHP Warning:  include(database/connect.php): failed to open stream: No such file or directory in /home/goodscab/public_html/sp/loginproc_home.php on line 7
+[30-Jan-2016 09:28:42 UTC] PHP Warning:  include(): Failed opening 'database/connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/goodscab/public_html/sp/loginproc_home.php on line 7
+[30-Jan-2016 09:28:42 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:28:42 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:28:42 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:28:42 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:28:42 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:28:42 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:28:42 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/loginproc_home.php on line 14
+[30-Jan-2016 09:28:42 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/loginproc_home.php on line 21
+[30-Jan-2016 09:28:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/goodscab/public_html/sp/loginproc_home.php:7) in /home/goodscab/public_html/sp/loginproc_home.php on line 36
+[30-Jan-2016 09:31:15 UTC] PHP Warning:  include(database/connect.php): failed to open stream: No such file or directory in /home/goodscab/public_html/sp/loginproc_home.php on line 7
+[30-Jan-2016 09:31:15 UTC] PHP Warning:  include(database/connect.php): failed to open stream: No such file or directory in /home/goodscab/public_html/sp/loginproc_home.php on line 7
+[30-Jan-2016 09:31:15 UTC] PHP Warning:  include(): Failed opening 'database/connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/goodscab/public_html/sp/loginproc_home.php on line 7
+[30-Jan-2016 09:31:15 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:31:15 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:31:15 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:31:15 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:31:15 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:31:15 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:31:15 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/loginproc_home.php on line 14
+[30-Jan-2016 09:31:15 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/loginproc_home.php on line 21
+[30-Jan-2016 09:31:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/goodscab/public_html/sp/loginproc_home.php:7) in /home/goodscab/public_html/sp/loginproc_home.php on line 36
+[30-Jan-2016 09:31:29 UTC] PHP Warning:  include(database/connect.php): failed to open stream: No such file or directory in /home/goodscab/public_html/sp/loginproc_home.php on line 7
+[30-Jan-2016 09:31:29 UTC] PHP Warning:  include(database/connect.php): failed to open stream: No such file or directory in /home/goodscab/public_html/sp/loginproc_home.php on line 7
+[30-Jan-2016 09:31:29 UTC] PHP Warning:  include(): Failed opening 'database/connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/goodscab/public_html/sp/loginproc_home.php on line 7
+[30-Jan-2016 09:31:29 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:31:29 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:31:29 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:31:29 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:31:29 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:31:29 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:31:29 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/loginproc_home.php on line 14
+[30-Jan-2016 09:31:29 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/loginproc_home.php on line 21
+[30-Jan-2016 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/goodscab/public_html/sp/loginproc_home.php:7) in /home/goodscab/public_html/sp/loginproc_home.php on line 36
+[30-Jan-2016 09:32:09 UTC] PHP Warning:  include(database/connect.php): failed to open stream: No such file or directory in /home/goodscab/public_html/sp/loginproc_home.php on line 7
+[30-Jan-2016 09:32:09 UTC] PHP Warning:  include(database/connect.php): failed to open stream: No such file or directory in /home/goodscab/public_html/sp/loginproc_home.php on line 7
+[30-Jan-2016 09:32:09 UTC] PHP Warning:  include(): Failed opening 'database/connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/goodscab/public_html/sp/loginproc_home.php on line 7
+[30-Jan-2016 09:32:09 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:32:09 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:32:09 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:32:09 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:32:09 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:32:09 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/loginproc_home.php on line 10
+[30-Jan-2016 09:32:09 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/loginproc_home.php on line 14
+[30-Jan-2016 09:32:09 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/loginproc_home.php on line 21
+[30-Jan-2016 09:32:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/goodscab/public_html/sp/loginproc_home.php:7) in /home/goodscab/public_html/sp/loginproc_home.php on line 36
+[23-Feb-2016 10:58:33 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 135
+[23-Feb-2016 10:58:33 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 135
+[23-Feb-2016 10:58:33 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 145
+[23-Feb-2016 10:58:33 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 145
+[23-Feb-2016 10:58:33 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 146
+[23-Feb-2016 10:58:33 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 215
+[23-Feb-2016 10:58:33 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 297
+[23-Feb-2016 10:58:33 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 297
+[23-Feb-2016 11:15:17 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 135
+[23-Feb-2016 11:15:17 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 135
+[23-Feb-2016 11:15:17 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 145
+[23-Feb-2016 11:15:17 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 145
+[23-Feb-2016 11:15:17 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 146
+[23-Feb-2016 11:15:17 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 215
+[23-Feb-2016 11:15:17 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 297
+[23-Feb-2016 11:15:17 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 297
+[23-Feb-2016 11:17:16 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 135
+[23-Feb-2016 11:17:16 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 135
+[23-Feb-2016 11:17:16 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 145
+[23-Feb-2016 11:17:16 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 145
+[23-Feb-2016 11:17:16 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 146
+[23-Feb-2016 11:17:16 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 215
+[23-Feb-2016 11:17:16 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 297
+[23-Feb-2016 11:17:16 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 297
+[23-Feb-2016 11:17:34 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 135
+[23-Feb-2016 11:17:35 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 135
+[23-Feb-2016 11:17:35 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 145
+[23-Feb-2016 11:17:35 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 145
+[23-Feb-2016 11:17:35 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 146
+[23-Feb-2016 11:17:35 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 215
+[23-Feb-2016 11:17:35 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 297
+[23-Feb-2016 11:17:35 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 297
+[23-Feb-2016 11:17:36 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 135
+[23-Feb-2016 11:17:36 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 135
+[23-Feb-2016 11:17:36 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 145
+[23-Feb-2016 11:17:36 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 145
+[23-Feb-2016 11:17:36 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 146
+[23-Feb-2016 11:17:36 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 215
+[23-Feb-2016 11:17:36 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 297
+[23-Feb-2016 11:17:36 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 297
+[23-Feb-2016 11:19:03 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 137
+[23-Feb-2016 11:19:03 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 137
+[23-Feb-2016 11:19:03 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 147
+[23-Feb-2016 11:19:03 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 147
+[23-Feb-2016 11:19:03 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 148
+[23-Feb-2016 11:19:03 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 217
+[23-Feb-2016 11:19:03 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 299
+[23-Feb-2016 11:19:03 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 299
+[23-Feb-2016 11:19:12 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 137
+[23-Feb-2016 11:19:12 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 137
+[23-Feb-2016 11:19:12 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 147
+[23-Feb-2016 11:19:12 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 147
+[23-Feb-2016 11:19:12 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 148
+[23-Feb-2016 11:19:12 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 217
+[23-Feb-2016 11:19:12 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/goodscab/public_html/sp/main.php on line 299
+[23-Feb-2016 11:19:12 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/goodscab/public_html/sp/main.php on line 299
+[23-Feb-2016 11:48:41 UTC] PHP Fatal error:  Call to a member function todayBookingCount() on a non-object in /home/goodscab/public_html/sp/main.php on line 311
+[23-Feb-2016 11:49:20 UTC] PHP Fatal error:  Call to a member function todayBookingCount() on a non-object in /home/goodscab/public_html/sp/main.php on line 311
+[23-Feb-2016 11:49:26 UTC] PHP Fatal error:  Call to a member function todayBookingCount() on a non-object in /home/goodscab/public_html/sp/main.php on line 311
+[23-Feb-2016 11:52:49 UTC] PHP Fatal error:  Call to a member function todayBookingCount() on a non-object in /home/goodscab/public_html/sp/main.php on line 311
+[23-Feb-2016 12:19:35 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 157
+[23-Feb-2016 12:19:35 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 188
+[23-Feb-2016 12:19:35 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 244
+[23-Feb-2016 12:19:35 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/goodscab/public_html/sp/main.php on line 254
+[27-Feb-2016 05:45:41 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, string given in /home/goodscab/public_html/sp/resetPasswordBack.php on line 18
+[27-Feb-2016 05:45:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/goodscab/public_html/sp/resetPasswordBack.php:18) in /home/goodscab/public_html/sp/resetPasswordBack.php on line 65
